@@ -1,0 +1,221 @@
+.mg{width: 268px ;
+    height: 33px;
+    cursor: pointer;
+position: sticky ;
+}
+i , a , button {
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: rgb(166,164, 164);
+text-decoration: none;
+}
+header
+{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px
+    20px;
+    position: sticky;
+
+
+}
+.link{
+    list-style: none;
+
+}
+.link li {
+    display: inline-block;
+    padding: 0px  20px;
+
+}
+
+
+.link  :hover{
+    color: #30a99d;
+}
+.logoo{
+display: block;
+margin:  0 auto;
+
+}
+h1{
+font-size:2.125rem ;
+color: #00b39b;
+text-align: center;
+}
+
+
+body {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+
+h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.part{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    gap: 20px;
+    text-align: justify;
+}
+.part , .p{
+    
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.name{
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    grid-gap: 20px;
+
+}
+
+    
+    
+
+
+.patient{
+    background-color: #00ccb1;
+    
+
+}
+.doctors{ 
+    background-color:#3e83e0;
+    
+}
+.clinics{
+    background-color: #1b2735;
+   
+}
+.box{
+    height: 314px;
+    border-radius: 5%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.box p{
+    font-size: 23px;
+}
+
+select{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+}
+option{
+    color: gray;
+}
+.name{
+    width: 70%;
+    margin: auto;
+    padding: 90px;
+}
+
+.part{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.section3{
+    background-color:#def8f5 ;
+    height: 600px;
+    margin-top: 2%;
+    position: relative;
+    overflow: hidden;
+}
+.input{
+    display: grid;
+    grid-template-columns: 50%  50% ;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.okk h1{
+    color:#9be2d9;
+    font-size: 30px;
+    width: 70%;
+    
+}
+.okk p{
+width: 70%;
+
+
+}
+.logo{
+    position: absolute;
+top: 50%;
+left: 10%;
+
+}
+
+.cards{display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+grid-gap: 20px;
+}
+.card{
+    background-color:#ffffff ;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.card h1{
+    color:#9be2d9 ;
+}
+.card p{
+
+    color: gray;
+}
+
+.translate{
+    transform: translateY(20px);
+}
+@media(max-width:500px){
+    .name{
+        display: grid;
+        grid-template-columns:  100%;
+        grid-gap: 20px;
+        width: 70%;
+        margin: auto;
+    }
+    .part{
+        width: 100%;
+    
+    }
+    
+
+
+
+
+
+
+
+
